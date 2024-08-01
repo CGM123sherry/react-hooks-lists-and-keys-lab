@@ -5,6 +5,12 @@ import About from "./About";
 import ProjectList from "./ProjectList";
 import user from "../data/user";
 
+const projects = [
+  { id: 1, name: "Project One", technologies: ["React", "JavaScript"] },
+  { id: 2, name: "Project Two", technologies: ["HTML", "CSS"] },
+  { id: 3, name: "Project Three", technologies: ["Node.js", "Express"] },
+];
+
 function App() {
   return (
     <div>
